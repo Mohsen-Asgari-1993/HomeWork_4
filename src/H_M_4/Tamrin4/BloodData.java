@@ -1,8 +1,8 @@
 package H_M_4.Tamrin4;
 
 public class BloodData {
-    String bloodType;
-    char rh;
+    private String bloodType;
+    private char rh;
 
     public BloodData() {
         this.bloodType = "O";
@@ -14,4 +14,19 @@ public class BloodData {
         this.rh = rh;
     }
 
+    public String getBloodType() {
+        return bloodType;
+    }
+
+    public void setBloodType(String bloodType) {
+        this.bloodType = bloodType;
+    }
+
+    public char getRh() {
+        return rh;
+    }
+
+    public void setRh(char rh) {
+        this.rh = rh;
+    }
 }
