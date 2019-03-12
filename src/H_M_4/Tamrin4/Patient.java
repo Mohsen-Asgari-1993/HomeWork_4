@@ -16,4 +16,10 @@ public class Patient {
     public BloodData getBloodData() {
         return bloodData;
     }
+
+    public Patient() {
+        this.id = 0;
+        this.age = 0;
+        BloodData bloodData = new BloodData();
+    }
 }
