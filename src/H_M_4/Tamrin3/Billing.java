@@ -5,4 +5,9 @@ public class Billing {
         double tax = price + (0.08 * price);
         return tax;
     }
+
+    public static double computeBill(double price, int quantity) {
+        double tax = price + (0.08 * price);
+        return tax * quantity;
+    }
 }
