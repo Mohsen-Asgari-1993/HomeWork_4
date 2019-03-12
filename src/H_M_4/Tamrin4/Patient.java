@@ -20,6 +20,12 @@ public class Patient {
     public Patient() {
         this.id = 0;
         this.age = 0;
-        BloodData bloodData = new BloodData();
+        this.bloodData = new BloodData();
+    }
+
+    public Patient(int id , int age , BloodData bloodData){
+        this.id=id;
+        this.age=age;
+        this.bloodData=bloodData;
     }
 }
